@@ -58,6 +58,8 @@
   <audio data-key='76' src='sounds/tink.wav'></audio>
 
 <script>
+
+  // 1. create a function called playSound, that takes e as its argument.
   function removeTransition(e){
     if(e.propertyName !== 'transform') return;
     e.target.classList.remove('playing');
